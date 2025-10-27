@@ -20,7 +20,7 @@ Cukup klik, dan biarkan efek *love* yang bekerja~
 1. Clone atau fork repo ini:
    ```bash
    git clone https://github.com/alenn-engineer-stress/minta-maaf.git
-2. Drag and drop file minta-maaf.html di browser kamu.
+2. Drag and drop file index.html di browser kamu.
 3. Bisa langsung dipakai, atau ubah teks-nya sesuka kamu 😎
 
 ---
