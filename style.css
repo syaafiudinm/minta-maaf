@@ -28,8 +28,14 @@ body {
 }
 
 @keyframes fadeIn {
-  from {opacity: 0; transform: translateY(20px);}
-  to {opacity: 1; transform: translateY(0);}
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 h1 {
@@ -65,7 +71,8 @@ button {
   border-radius: 10px;
   cursor: pointer;
   font-size: 1rem;
-  transition: transform 0.25s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.25s ease, background-color 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 #submitName {
@@ -108,7 +115,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s ease;
@@ -125,7 +132,7 @@ button {
   padding: 40px 70px;
   border-radius: 20px;
   text-align: center;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   animation: pop 0.4s ease;
   max-width: 520px;
   width: 90%;
@@ -133,8 +140,14 @@ button {
 }
 
 @keyframes pop {
-  from {transform: scale(0.8); opacity: 0;}
-  to {transform: scale(1); opacity: 1;}
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .popup h2 {
@@ -170,8 +183,14 @@ button {
   border-radius: 50%;
 }
 
-.heart::before { top: -11px; left: 0; }
-.heart::after { left: -11px; top: 0; }
+.heart::before {
+  top: -11px;
+  left: 0;
+}
+.heart::after {
+  left: -11px;
+  top: 0;
+}
 
 footer {
   position: relative;
@@ -198,15 +217,27 @@ footer {
 
 @keyframes float {
   to {
-	transform: translateY(-150px) rotate(45deg);
-	opacity: 0;
+    transform: translateY(-150px) rotate(45deg);
+    opacity: 0;
   }
 }
 
 @media (max-width: 480px) {
-  .card { padding: 28px 20px; }
-  h1 { font-size: 1.4rem; }
-  p { font-size: 0.95rem; }
-  button { font-size: 0.9rem; padding: 8px 18px; }
-  .popup-content { padding: 32px 28px; max-width: 90%; }
+  .card {
+    padding: 28px 20px;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 0.95rem;
+  }
+  button {
+    font-size: 0.9rem;
+    padding: 8px 18px;
+  }
+  .popup-content {
+    padding: 32px 28px;
+    max-width: 90%;
+  }
 }
